@@ -1,12 +1,12 @@
-apiVersion: v1
-kind: Pod
-metadata:
-  name: nginx-argocd-pod
-  labels:
-    app: dev
-spec:
-  containers:
-    - name: nginx-argocd-container
-      image: nginx
-      ports:
-        - containerPort: 80
+# apiVersion: v1
+# kind: Pod
+# metadata:
+#   name: nginx-argocd-pod
+#   labels:
+#     app: dev
+# spec:
+#   containers:
+#     - name: nginx-argocd-container
+#       image: nginx
+#       ports:
+#         - containerPort: 80
